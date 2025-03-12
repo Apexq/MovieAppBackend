@@ -14,6 +14,7 @@ public class HashTable<K, V> {
         }
     }
 
+    @SuppressWarnings("unchecked")
     public HashTable(int capacity) {
         this.size = capacity;
         this.table = new Node[capacity];
